@@ -53,5 +53,11 @@ public class Strings {
 
         // Extracting a part of String
         System.out.println("Substring --> " + name.substring(0, 4));
+
+        // Finding the index of a character in String
+        System.out.println("Index of 'h' --> " + name.indexOf('h'));
+
+        // Finding the index of a substring in String
+        System.out.println("Index of 'shy' --> " + name.indexOf("shy"));
     }
 }
